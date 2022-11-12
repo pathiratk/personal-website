@@ -10,9 +10,13 @@ nav {
   text-align: right;
 }
 
-.thai {
-  font-family: "Pridi", serif;
-  font-weight: 200;
+.thai:hover span {
+  display: none
+}
+
+.thai:hover:before {
+  font-weight: 220;
+  content: "ภาธิรัช โฆษะครรชิต"
 }
 
 html {
